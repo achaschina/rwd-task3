@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .head {
+        margin: 15px 15px 0px 15px;
+        height: 60px;
+        width: 100%;
+        background: #7faaef;
+    }
+    .left {
+        margin: 15px;
+        height: 110px;
+        width: 100%;
+        background: #4c890b;
+    }
+    .center {
+        margin-left: 15px;
+        height: 350px;
+        width: 47%;
+        background: #ce1c1c;
+    }
+    .right {
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 350px;
+        width: 47%;
+        background: #f2b009;
+    }
+    .bottom{
+      width: 100%;
+      height: 60px;
+      margin:15px;
+      background: pink;
+    }
+}
+
+@media (max-width: 767px) {
+    .head {
+        margin: 14px;
+        height: 100px;
+        width: 100%;
+        background: #7faaef;
+    }
+    .left {
+        margin: 0px  14px;
+        height: 100px;
+        width: 100%;
+        background: #4c890b;
+    }
+    .center {
+        margin: 14px;
+        height: 345px;
+        width: 100%;
+        background: #ce1c1c;
+    }
+    .right {
+        display: none;
+    }
+    .bottom{
+      display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px){
+    .head {
+        margin: 17px;
+        height: 75px;
+        width: 100%;
+        background: #7faaef;
+    }
+    .left {
+        margin-left: 17px;
+        height: 485px;
+        width: 17%;
+        background: #4c890b;
+    }
+    .center {
+        margin-left: 17px;
+        margin-right: 17px;
+        height: 485px;
+        width: 59%;
+        background: #ce1c1c;
+    }
+    .right {
+        margin-right: 17px;
+        height: 485px;
+        width: 17%;
+        background: #f2b009;
+    }
+    .bottom{
+      display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+  .head {
+      margin: 18px;
+      height: 75px;
+      width: 100%;
+      background: #7faaef;
+  }
+  .left {
+      margin-left: 18px;
+      height: 485px;
+      width: 17%;
+      background: #4c890b;
+  }
+  .center {
+      margin-left: 18px;
+      margin-right: 18px;
+      height: 485px;
+      width: 60%;
+      background: #ce1c1c;
+  }
+  .right {
+      margin-right: 18px;
+      height: 485px;
+      width: 17%;
+      background: #f2b009;
+  }
+  .bottom{
+    display: none;
+  }
+}
